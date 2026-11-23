@@ -1,0 +1,3 @@
+'Research.StarCover.star_cover_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Research.StarCover.graph_cover_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Research.StarCover.heawood_correct' depends on axioms: [propext, Classical.choice, Quot.sound]

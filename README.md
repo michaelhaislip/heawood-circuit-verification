@@ -26,8 +26,9 @@ locally; this artifact has not been accepted by the PEqualNP fleet.
 
 ## Explore the artifact
 
-- [Download the packaged artifact and checksum](https://github.com/michaelhaislip/heawood-circuit-verification/releases/tag/v0.1.0)
+- [Download the packaged artifact and checksum](https://github.com/michaelhaislip/heawood-circuit-verification/releases/tag/v0.2.0)
 - [Lean proofs and exact witness](lean/HeawoodBoundary.lean)
+- [General star-cover adapters and examples](STAR_COVER.md)
 - [Circuit and boundary data](data/heawood.json)
 - [Verification instructions and search limitations](VERIFICATION.md)
 - [Prior art and novelty assessment](RELATED_WORK.md)
@@ -37,6 +38,11 @@ locally; this artifact has not been accepted by the PEqualNP fleet.
 The boundary principle and star-cover construction are established methods;
 no mathematical novelty, optimality, or priority is claimed. This is a
 supporting formalization, not a resolution of the lower-bound problem.
+
+Version 0.2.0 reuses the upstream general star-cover formalization, adds
+`Monotone2` adapters and examples, and recovers a 27-gate Heawood construction.
+The general construction was already formalized upstream; our earlier
+assessment that it was missing was incorrect.
 
 ## Attribution and license
 

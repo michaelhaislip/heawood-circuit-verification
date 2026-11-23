@@ -2,6 +2,9 @@
 
 Reviewed 2026-11-23 before publication.
 
+The v0.2.0 review includes the new star-cover Lean file, documentation,
+and axiom audit. Version 0.1.0 and its release assets are preserved.
+
 The original ZIP and the prepared repository payload were checked for
 credential signatures, private keys, credential assignments, email addresses,
 lease identifiers, absolute Windows paths, and user home-directory paths.

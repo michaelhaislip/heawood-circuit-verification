@@ -10,6 +10,7 @@ necessary, settle P versus NP, or claim fleet acceptance or mathematical novelty
 | File | Purpose |
 | --- | --- |
 | `lean/HeawoodBoundary.lean` | Authoritative Lean definitions and proofs, unchanged from the successful check |
+| `lean/StarCover.lean`, `STAR_COVER.md` | Reuse of the upstream general construction, compatibility proofs, examples, and independent verification instructions |
 | `data/heawood.json` | Exact 21 edges, 21 positive masks, 37 negative masks, and all 27 gates |
 | `verify.py` | Standard-library exhaustive verifier; also checks that JSON agrees with the Lean literals |
 | `upstream/CircuitLowerBounds.lean` | Exact upstream gate, circuit, evaluation, and size definitions for inspection |

@@ -2,6 +2,15 @@
 
 Reviewed on 2026-11-23. No mathematical novelty is claimed.
 
+**Correction in v0.2.0:** the upstream project already formalized the general
+star-cover construction at our original pinned revision. The initial search
+missed `MetaComplexity/Helpers/CoverCircuitList.lean`, `CoverCircuitGraph.lean`,
+and `EdgeUpperMono.lean`. These provide the explicit builder, correctness,
+upper bounds, and exact construction-size results. Our new
+`lean/StarCover.lean` reuses them as a compatibility layer and worked examples;
+it does not supply a previously missing general construction. See
+[STAR_COVER.md](STAR_COVER.md) for exact source links and theorem attribution.
+
 1. The generic boundary principle is standard monotone Boolean-function
    theory. Bioch and Ibaraki, *Complexity of Identification and Dualization
    of Positive Boolean Functions*, Information and Computation 123 (1995),
