@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "inputs_checked": 16384,
+  "gates": 27,
+  "minimal_true": 21,
+  "maximal_false": 37,
+  "lean_literals_match": true,
+  "search": "6 unknown/timeouts"
+}

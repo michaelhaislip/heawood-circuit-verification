@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-23",
+  "upstream": "https://github.com/brilliant-hq/pequalnp-proofs",
+  "commit": "8ebf8f114c5d4568b533cb9864a4ea9b6ad5bbbc",
+  "lean": "4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "formal_status": "locally kernel checked; not accepted by fleet",
+  "lower_bound_27": "unproved",
+  "search_outcome": "all six 26-gate cases unknown (timeout)"
+}

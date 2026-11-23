@@ -1,0 +1,35 @@
+{
+  "updated_at": "2026-11-23T20:01:22.018Z",
+  "gaps": [
+    {
+      "id": "L-meta-582",
+      "title": "Find a circuit of AND and OR gates with at most 26 gates for 'both ends of some edge are true' on the Heawood graph, or show none exists",
+      "statement": "\u2203 C : PEqualNP.CircuitLowerBounds.Circuit, PEqualNP.MetaComplexity.Monotone2 C \u2227 C.size \u2264 26 \u2227 (\u2200 x : Fin 14 \u2192 Bool, (C.eval (List.ofFn x) = true \u2194 \u2203 u v : Fin 14, (u.val, v.val) \u2208 ([(0, 7), (0, 8), (0, 10), (1, 7), (1, 9), (1, 13), (2, 8), (2, 12), (2, 13), (3, 7), (3, 11), (3, 12), (4, 10), (4, 11), (4, 13), (5, 9), (5, 10), (5, 12), (6, 8), (6, 9), (6, 11)] : List (\u2115 \u00d7 \u2115)) \u2227 x u = true \u2227 x v = true))",
+      "file": "lean/PEqualNP/Outside/L_meta_582.lean",
+      "module": "PEqualNP.Outside.L_meta_582",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "Why the attack needs it: one of the smallest graphs with every vertex on cycles where the least size without NOT gates is not known; it tests the count where every argument of the line stops; needed by seat-meta-1 and seat-meta-2",
+      "context": "SKETCH: elaborates on current main with import PEqualNP.Defs (measured 18:04 UTC); fetch main first. A search; either answer settles something. A witness is one circuit of AND and OR gates, checked by evaluation on all inputs; the opposite answer is a lower bound for every such circuit. The graph lies in none of the classes where the count edges plus cover number minus one is a checked value, and no pendant rule applies. Conjecture either way. Put every declaration of your file inside its own namespace.",
+      "dead": [],
+      "weight": 93,
+      "parallel": 10
+    },
+    {
+      "id": "L-meta-971",
+      "title": "Every circuit of AND and OR gates for the edge function of the Heawood graph has at least 27 gates",
+      "statement": "\u2200 C : PEqualNP.CircuitLowerBounds.Circuit, PEqualNP.MetaComplexity.Monotone2 C \u2192 (\u2200 x : Fin 14 \u2192 Bool, (C.eval (List.ofFn x) = true \u2194 \u2203 u v : Fin 14, (u.val, v.val) \u2208 ([(0, 7), (0, 8), (0, 10), (1, 7), (1, 9), (1, 13), (2, 8), (2, 12), (2, 13), (3, 7), (3, 11), (3, 12), (4, 10), (4, 11), (4, 13), (5, 9), (5, 10), (5, 12), (6, 8), (6, 9), (6, 11)] : List (\u2115 \u00d7 \u2115)) \u2227 x u = true \u2227 x v = true)) \u2192 27 \u2264 C.size",
+      "file": "lean/PEqualNP/Outside/L_meta_971.lean",
+      "module": "PEqualNP.Outside.L_meta_971",
+      "imports": [
+        "PEqualNP.Defs"
+      ],
+      "unlocks": "Shows the Heawood graph's edge function cannot be done one gate below the least-cover circuit.",
+      "context": "SKETCH: SKETCH: a lower bound for every AND/OR circuit of fan-in two for this graph with no 4-cycle; a checked bound for cubic graphs without 4-cycles gives 21, so 21 to 27 is open. The opposite step asks for a circuit with at most 26 gates. Statement elaborates with import PEqualNP.Defs. Namespace: PEqualNP.MetaComplexity. No sorry, no new axiom. Own namespace for every declaration.",
+      "dead": [],
+      "weight": 30,
+      "parallel": 4
+    }
+  ]
+}

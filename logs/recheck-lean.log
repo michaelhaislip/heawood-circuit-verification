@@ -1,0 +1,2 @@
+'Research.Heawood971.boundary_check' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Research.Heawood971.baseline_target' depends on axioms: [propext, Classical.choice, Quot.sound]
