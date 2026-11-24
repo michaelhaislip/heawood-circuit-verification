@@ -7,10 +7,20 @@
   "formal_status": "locally kernel checked; not accepted by fleet",
   "lower_bound_27": "unproved",
   "search_outcome": "all six 26-gate cases unknown (timeout)",
-  "artifact_version": "0.2.0",
+  "artifact_version": "0.3.0",
   "followup": {
     "source": "lean/StarCover.lean",
     "status": "reuse of pinned upstream star-cover builder with Monotone2 adapters and examples",
     "novelty": "no mathematical or first-formalization novelty claimed"
-  }
+  },
+  "project_status": "research session wrapped; unresolved claims documented; no ongoing fleet task",
+  "formal_followups": [
+    "followups/alias-deletion/lean/AliasDeletion.lean",
+    "followups/normalization-audit/lean/NormalizationAudit.lean"
+  ],
+  "experimental_followups": [
+    "benchmarks/diagnostics",
+    "benchmarks/intermediate",
+    "benchmarks/portfolio"
+  ]
 }

@@ -1,0 +1,111 @@
+[
+  {
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ]
+    ],
+    "gates": 1,
+    "rows": 3,
+    "encoding": "ite",
+    "normalize": false,
+    "first": null,
+    "seed": 0,
+    "timeout_s": 5,
+    "boundary_seconds": 3.880000440403819e-05,
+    "build_seconds": 0.007896199997048825,
+    "serialization_seconds": 0.001080900023225695,
+    "check_seconds": 0.00544489998719655,
+    "check_cpu_seconds": 0.0,
+    "assertions": 5,
+    "smt_bytes": 722,
+    "smt_sha256": "8ba566180de5da4f5e04c4888349d6b4f2aa57911f6d80a9e83a36405ee36db5",
+    "result": "sat",
+    "stats_before": {
+      "sat mk var": 1,
+      "num allocs": 10459,
+      "max memory": 16.96,
+      "memory": 16.85
+    },
+    "stats": {
+      "sat mk var": 1,
+      "solve-eqs-steps": 1,
+      "solve-eqs-elim-vars": 1,
+      "elim-unconstrained": 1,
+      "sat mk clause 2ary": 83,
+      "sat mk clause nary": 44,
+      "sat conflicts": 2,
+      "sat decisions": 6,
+      "sat propagations 2ary": 58,
+      "sat propagations nary": 27,
+      "sat backjumps": 2,
+      "num allocs": 25754,
+      "rlimit count": 1607,
+      "max memory": 25.1,
+      "memory": 16.98,
+      "time": 0.005
+    },
+    "lean_proof": false,
+    "witness": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "full_table_checked": 8
+  },
+  {
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ]
+    ],
+    "gates": 1,
+    "rows": 3,
+    "encoding": "ite",
+    "normalize": true,
+    "first": null,
+    "seed": 0,
+    "timeout_s": 5,
+    "boundary_seconds": 2.19999928958714e-05,
+    "build_seconds": 0.0029091000033076853,
+    "serialization_seconds": 0.0020416000043042004,
+    "check_seconds": 0.006040700012817979,
+    "check_cpu_seconds": 0.0,
+    "assertions": 10,
+    "smt_bytes": 1190,
+    "smt_sha256": "f166cc901e1728bd7859090944f1f72cf132590184ef9893704f91989f524657",
+    "result": "unsat",
+    "stats_before": {
+      "sat mk var": 1,
+      "num allocs": 64564,
+      "rlimit count": 1614,
+      "max memory": 25.1,
+      "memory": 16.99
+    },
+    "stats": {
+      "sat mk var": 1,
+      "solve-eqs-steps": 2,
+      "solve-eqs-elim-vars": 2,
+      "elim-unconstrained": 1,
+      "sat mk clause 2ary": 86,
+      "sat mk clause nary": 34,
+      "sat conflicts": 2,
+      "sat decisions": 1,
+      "sat propagations 2ary": 55,
+      "sat propagations nary": 5,
+      "sat backjumps": 1,
+      "num allocs": 86798,
+      "rlimit count": 3717,
+      "max memory": 25.15,
+      "memory": 17.02,
+      "time": 0.005
+    },
+    "lean_proof": false
+  }
+]

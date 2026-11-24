@@ -11,6 +11,9 @@ necessary, settle P versus NP, or claim fleet acceptance or mathematical novelty
 | --- | --- |
 | `lean/HeawoodBoundary.lean` | Authoritative Lean definitions and proofs, unchanged from the successful check |
 | `lean/StarCover.lean`, `STAR_COVER.md` | Reuse of the upstream general construction, compatibility proofs, examples, and independent verification instructions |
+| `followups/alias-deletion/` | General boundary-alias deletion, alias-free existence theorem, finite example, and its own verification script |
+| `followups/normalization-audit/` | Checked padding/essentiality lemmas and a scope counterexample; full normalization remains unproved |
+| `benchmarks/` | Diagnostic scripts, raw results, and independent SAT-witness audits; not formal lower-bound proofs |
 | `data/heawood.json` | Exact 21 edges, 21 positive masks, 37 negative masks, and all 27 gates |
 | `verify.py` | Standard-library exhaustive verifier; also checks that JSON agrees with the Lean literals |
 | `upstream/CircuitLowerBounds.lean` | Exact upstream gate, circuit, evaluation, and size definitions for inspection |

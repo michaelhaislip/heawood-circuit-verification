@@ -1,0 +1,4 @@
+'Research.NormalizationAudit.pad_to_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Research.NormalizationAudit.singleEdge_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Research.NormalizationAudit.one_gate_all_reads_impossible' depends on axioms: [propext, Quot.sound]
+'Research.NormalizationAudit.no_isolates_all_essential' depends on axioms: [propext, Quot.sound]

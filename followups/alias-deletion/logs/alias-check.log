@@ -1,0 +1,3 @@
+'Research.AliasDeletion.deleteAlias_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Research.AliasDeletion.minimal_no_boundary_alias' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Research.AliasDeletion.alias_free_representative' depends on axioms: [propext, Classical.choice, Quot.sound]

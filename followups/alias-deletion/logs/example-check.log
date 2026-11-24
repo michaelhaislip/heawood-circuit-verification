@@ -1,0 +1,2 @@
+'Research.AliasDeletion.Example.deleted_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Research.AliasDeletion.Example.not_global_alias' depends on axioms: [propext]

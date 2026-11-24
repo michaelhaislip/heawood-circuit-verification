@@ -16,19 +16,27 @@ With Python 3.10 or later (no extra packages):
 
 ```sh
 python verify.py
+python audit_research.py
 ```
 
 This checks all 16,384 inputs, the 27-gate witness, the 21 positive and 37
 negative boundary cases, agreement with the Lean literals, and file hashes.
+The second command audits the consolidated experimental records and SAT witnesses.
 For independent Lean verification with pinned Lean 4.36.0 and Mathlib,
 follow [VERIFICATION.md](VERIFICATION.md). The proof and axiom audit passed
 locally; this artifact has not been accepted by the PEqualNP fleet.
 
 ## Explore the artifact
 
-- [Download the packaged artifact and checksum](https://github.com/michaelhaislip/heawood-circuit-verification/releases/tag/v0.2.0)
+- [Download the packaged artifact and checksum](https://github.com/michaelhaislip/heawood-circuit-verification/releases/tag/v0.3.0)
+- [Research status, reusable results, and unresolved questions](RESEARCH_STATUS.md)
 - [Lean proofs and exact witness](lean/HeawoodBoundary.lean)
 - [General star-cover adapters and examples](STAR_COVER.md)
+- [Boundary-relative alias deletion and alias-free representatives](followups/alias-deletion/README.md)
+- [Normalization audit and scope counterexample](followups/normalization-audit/README.md)
+- [Instrumented search diagnostics](benchmarks/diagnostics/README.md)
+- [Intermediate multi-seed benchmarks](benchmarks/intermediate/README.md)
+- [Equal-budget portfolio comparison](benchmarks/portfolio/README.md)
 - [Circuit and boundary data](data/heawood.json)
 - [Verification instructions and search limitations](VERIFICATION.md)
 - [Prior art and novelty assessment](RELATED_WORK.md)
@@ -43,6 +51,11 @@ Version 0.2.0 reuses the upstream general star-cover formalization, adds
 `Monotone2` adapters and examples, and recovers a 27-gate Heawood construction.
 The general construction was already formalized upstream; our earlier
 assessment that it was missing was incorrect.
+
+Version 0.3.0 consolidates the remaining checked proofs and computational
+experiments. This research session is wrapped up; no ongoing search or fleet
+assignment is being maintained. The repository remains available for reuse.
+See [RESEARCH_STATUS.md](RESEARCH_STATUS.md) for the exact limits of each result.
 
 ## Attribution and license
 

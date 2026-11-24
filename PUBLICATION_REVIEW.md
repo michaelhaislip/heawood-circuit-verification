@@ -5,6 +5,13 @@ Reviewed 2026-11-23 before publication.
 The v0.2.0 review includes the new star-cover Lean file, documentation,
 and axiom audit. Version 0.1.0 and its release assets are preserved.
 
+The v0.3.0 review covers the alias-deletion proofs, normalization audit,
+and all three diagnostic benchmark packages. Successful proof audits and
+experimental records are included; local tooling, generated Lean binaries,
+authentication material, and unrelated research files are excluded. Earlier
+releases are preserved. All newly consolidated sources are scanned before
+publication, and the downloaded release is checked against the local archive.
+
 The original ZIP and the prepared repository payload were checked for
 credential signatures, private keys, credential assignments, email addresses,
 lease identifiers, absolute Windows paths, and user home-directory paths.
